@@ -9,6 +9,6 @@ class Parcel
     volume = @length * @width * @height
   end
   define_method(:cost_to_ship) do |distance|
-    cost = (distance / 100) + ((volume() / 3) * (@weight / 2))
+    cost = (distance / 50) + ((volume() / 100) * (@weight / 2))
   end
 end

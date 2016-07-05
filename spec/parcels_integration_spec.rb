@@ -12,6 +12,6 @@ describe('the parcels path', {:type => :feature}) do
     fill_in('weight', :with => 4)
     fill_in('distance', :with => 200)
     click_button('Submit')
-    expect(page).to have_content(114)
+    expect(page).to have_content(6)
   end
 end

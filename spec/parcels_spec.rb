@@ -11,7 +11,7 @@ describe(Parcel) do
   describe('#cost_to_ship') do
     it('returns the cost to ship a parcel depending on distance, volume and weight') do
       test_parcel = Parcel.new(12, 7, 2, 4)
-      expect(test_parcel.cost_to_ship(200)).to(eq(114))
+      expect(test_parcel.cost_to_ship(200)).to(eq(6))
     end
   end
 end
